@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>CheckOut Pro</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Theme Switch -->
+  <div class="themes">
+    <span onclick="setTheme(0)"></span>
+    <span onclick="setTheme(1)"></span>
+    <span onclick="setTheme(2)"></span>
+  </div>
+
+  <h1>CheckOut</h1>
+
+  <div class="input-box">
+    <input type="text" id="taskInput" placeholder="Add a task...">
+    <button onclick="addTask()">I Got This!</button>
+  </div>
+
+  <div class="info">
+    <p id="date"></p>
+    <p>🔥 Streak: <span id="streak">0</span></p>
+  </div>
+
+  <!-- Calendar -->
+  <div class="calendar" id="calendar"></div>
+
+  <!-- AI Suggestion -->
+  <button class="ai-btn" onclick="aiSuggest()">🤖 Suggest Task</button>
+
+  <!-- Progress -->
+  <div class="progress-bar">
+    <div id="progress"></div>
+  </div>
+
+  <ul id="taskList"></ul>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
