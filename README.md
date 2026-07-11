@@ -1,10 +1,17 @@
 # ✅ CheckOut – Task Management Web Application
 
-CheckOut is a modern, responsive Task Management Web Application built using **HTML5, CSS3, and Vanilla JavaScript**. It helps users organize daily tasks, monitor progress, and improve productivity through a clean, intuitive, and user-friendly interface.
+CheckOut is a modern and responsive **Task Management Web Application** built using **HTML5, CSS3, and Vanilla JavaScript**. It helps users organize daily tasks, track their progress, and improve productivity through a clean and user-friendly interface.
 
 ---
 
-## 📌 Features
+## 🌐 Live Demo
+
+**🚀 Deployed Website:**  
+https://monicamurugan18.github.io/CheckOut-/
+
+---
+
+## ✨ Features
 
 - ➕ Add New Tasks
 - ✏️ Edit Existing Tasks
@@ -15,14 +22,14 @@ CheckOut is a modern, responsive Task Management Web Application built using **H
   - Total Tasks
   - Completed Tasks
   - Pending Tasks
-- 📈 Progress Bar
+- 📈 Progress Tracking
 - 🌙 Dark Mode
 - 💾 Local Storage Support
 - 📱 Fully Responsive Design
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
 - HTML5
 - CSS3
@@ -35,7 +42,7 @@ CheckOut is a modern, responsive Task Management Web Application built using **H
 
 ## 📂 Project Structure
 
-```
+```text
 CheckOut/
 │── index.html
 │── style.css
@@ -50,19 +57,20 @@ CheckOut/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/MonicaMurugan18/CheckOut.git
+git clone https://github.com/MonicaMurugan18/CheckOut-.git
 ```
 
-### Run the Project
+### Run Locally
 
-1. Open the project folder.
-2. Open **index.html** in your browser.
+1. Clone or download this repository.
+2. Open the project folder.
+3. Open **index.html** in your preferred web browser.
 
 Or use **Live Server** in Visual Studio Code.
 
 ---
 
-## 📸 Application Features
+## 📸 Application Highlights
 
 - Modern Glassmorphism UI
 - Interactive Dashboard
@@ -77,7 +85,7 @@ Or use **Live Server** in Visual Studio Code.
 
 ## 📱 Responsive Design
 
-The application is optimized for:
+Optimized for:
 
 - 💻 Desktop
 - 💼 Laptop
@@ -88,18 +96,28 @@ The application is optimized for:
 
 ## 🎯 Future Enhancements
 
-- Task Due Dates
-- Category Filters
-- Priority Sorting
+- Due Date Support
+- Task Categories & Filters
 - Drag & Drop Tasks
+- Task Priority Sorting
+- Cloud Storage Integration
 - User Authentication
-- Cloud Database Integration
-- Task Reminders
 
+---
 
+## 👩‍💻 Developed By
+
+**Monica.M**
+
+B.Tech – Artificial Intelligence & Machine Learning
+
+- GitHub: https://github.com/MonicaMurugan18
+- LinkedIn: https://www.linkedin.com/in/monicamurugan18/
+
+---
 
 ## ⭐ Support
 
 If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
 
-It motivates me to build more open-source projects.
+Your support motivates me to build more open-source projects.
