@@ -1,35 +1,35 @@
-# ✅ CheckOut – Task Management Web Application
+# CheckOut – Task Management Web Application
 
-CheckOut is a modern and responsive **Task Management Web Application** built using **HTML5, CSS3, and Vanilla JavaScript**. It helps users organize daily tasks, track their progress, and improve productivity through a clean and user-friendly interface.
+CheckOut is a modern and responsive Task Management Web Application built using HTML5, CSS3, and Vanilla JavaScript. It helps users organize daily tasks, track their progress, and improve productivity through a clean and user-friendly interface.
 
 ---
 
-## 🌐 Live Demo
+## Live Demo
 
-**🚀 Deployed Website:**  
+Deployed Website:
 https://monicamurugan18.github.io/CheckOut-/
 
 ---
 
-## ✨ Features
+## Features
 
-- ➕ Add New Tasks
-- ✏️ Edit Existing Tasks
-- 🗑️ Delete Tasks
-- ✅ Mark Tasks as Completed
-- 🔍 Real-Time Task Search
-- 📊 Dashboard with:
+- Add New Tasks
+- Edit Existing Tasks
+- Delete Tasks
+- Mark Tasks as Completed
+- Search Tasks in Real Time
+- Dashboard with:
   - Total Tasks
   - Completed Tasks
   - Pending Tasks
-- 📈 Progress Tracking
-- 🌙 Dark Mode
-- 💾 Local Storage Support
-- 📱 Fully Responsive Design
+- Progress Tracking
+- Dark Mode
+- Local Storage Support
+- Fully Responsive Design
 
 ---
 
-## 🛠️ Tech Stack
+## Technologies Used
 
 - HTML5
 - CSS3
@@ -40,7 +40,7 @@ https://monicamurugan18.github.io/CheckOut-/
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 CheckOut/
@@ -52,27 +52,23 @@ CheckOut/
 
 ---
 
-## 🚀 Getting Started
+## Installation
 
-### Clone the Repository
+Clone the repository:
 
 ```bash
 git clone https://github.com/MonicaMurugan18/CheckOut-.git
 ```
 
-### Run Locally
+Open the project folder and launch `index.html` in your browser.
 
-1. Clone or download this repository.
-2. Open the project folder.
-3. Open **index.html** in your preferred web browser.
-
-Or use **Live Server** in Visual Studio Code.
+You can also use the Live Server extension in Visual Studio Code.
 
 ---
 
-## 📸 Application Highlights
+## Application Highlights
 
-- Modern Glassmorphism UI
+- Modern Glassmorphism User Interface
 - Interactive Dashboard
 - Task Management System
 - Search Functionality
@@ -83,41 +79,39 @@ Or use **Live Server** in Visual Studio Code.
 
 ---
 
-## 📱 Responsive Design
+## Responsive Design
 
-Optimized for:
+The application is optimized for:
 
-- 💻 Desktop
-- 💼 Laptop
-- 📱 Tablet
-- 📲 Mobile Devices
+- Desktop
+- Laptop
+- Tablet
+- Mobile Devices
 
 ---
 
-## 🎯 Future Enhancements
+## Future Improvements
 
 - Due Date Support
-- Task Categories & Filters
-- Drag & Drop Tasks
+- Task Categories and Filters
+- Drag and Drop Tasks
 - Task Priority Sorting
 - Cloud Storage Integration
 - User Authentication
 
 ---
 
-## 👩‍💻 Developed By
+## Developer
 
 **Monica.M**
 
 B.Tech – Artificial Intelligence & Machine Learning
 
-- GitHub: https://github.com/MonicaMurugan18
-- LinkedIn: https://www.linkedin.com/in/monicamurugan18/
+GitHub:
+https://github.com/MonicaMurugan18
+
+LinkedIn:
+https://www.linkedin.com/in/monicamurugan18/
 
 ---
 
-## ⭐ Support
-
-If you found this project useful, please consider giving it a **⭐ Star** on GitHub.
-
-Your support motivates me to build more open-source projects.
