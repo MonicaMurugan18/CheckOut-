@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CheckOut | Task Management</title>
+ 
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+ 
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+ 
+<!-- Stylesheet -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+<div class="app-container">
+ 
+  <!-- ================= SIDEBAR ================= -->
+  <aside class="sidebar">
+    <div class="logo">
+      <i class="fa-solid fa-circle-check"></i>
+      <span>CheckOut</span>
+    </div>
+ 
+    <nav class="sidebar-nav">
+      <ul>
+        <li class="nav-item active" id="navDashboard">
+          <i class="fa-solid fa-gauge-high"></i>
+          <span>Dashboard</span>
+        </li>
+        <li class="nav-item" id="navTasks">
+          <i class="fa-solid fa-list-check"></i>
+          <span>Tasks</span>
+        </li>
+        <li class="nav-item" id="navSearch">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <span>Search</span>
+        </li>
+        <li class="nav-item" id="navDarkMode">
+          <i class="fa-solid fa-moon"></i>
+          <span>Dark Mode</span>
+        </li>
+      </ul>
+    </nav>
+  </aside>
+ 
+  <!-- ================= MAIN CONTENT ================= -->
+  <main class="main-content">
+ 
+    <!-- ================= HEADER ================= -->
+    <header class="app-header">
+      <div class="header-text">
+        <h1>Hello Monica 👋</h1>
+        <p>Stay productive and achieve your goals.</p>
+      </div>
+      <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle Dark Mode">
+        <i class="fa-solid fa-moon"></i>
+      </button>
+    </header>
+ 
+    <!-- ================= DASHBOARD ================= -->
+    <section class="dashboard-cards">
+      <div class="card">
+        <div class="card-icon">
+          <i class="fa-solid fa-list"></i>
+        </div>
+        <div class="card-info">
+          <h3>Total Tasks</h3>
+          <p id="totalTasks">0</p>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <div class="card-icon">
+          <i class="fa-solid fa-circle-check"></i>
+        </div>
+        <div class="card-info">
+          <h3>Completed</h3>
+          <p id="completedTasks">0</p>
+        </div>
+      </div>
+ 
+      <div class="card">
+        <div class="card-icon">
+          <i class="fa-solid fa-hourglass-half"></i>
+        </div>
+        <div class="card-info">
+          <h3>Pending</h3>
+          <p id="pendingTasks">0</p>
+        </div>
+      </div>
+    </section>
+ 
+    <!-- ================= PROGRESS ================= -->
+    <section class="progress-section">
+      <div class="progress-header">
+        <h2>Today's Progress</h2>
+        <span id="progressText">0%</span>
+      </div>
+      <div class="progress-bar-container">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+    </section>
+ 
+    <!-- ================= ADD TASK ================= -->
+    <section class="add-task-section">
+      <h2>Add Task</h2>
+      <div class="add-task-form">
+        <input type="text" id="taskInput" placeholder="Enter task name">
+ 
+        <select id="category">
+          <option value="Study">Study</option>
+          <option value="Coding">Coding</option>
+          <option value="Personal">Personal</option>
+          <option value="Health">Health</option>
+        </select>
+ 
+        <select id="priority">
+          <option value="High">High</option>
+          <option value="Medium">Medium</option>
+          <option value="Low">Low</option>
+        </select>
+ 
+        <button id="addTask">
+          <i class="fa-solid fa-plus"></i>
+          Add Task
+        </button>
+      </div>
+    </section>
+ 
+    <!-- ================= SEARCH ================= -->
+    <section class="search-section">
+      <div class="search-box">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input type="text" id="searchTask" placeholder="Search Task">
+      </div>
+    </section>
+ 
+    <!-- ================= TASK LIST ================= -->
+    <section class="task-list-section">
+      <h2>Today's Tasks</h2>
+      <div id="taskList" class="task-list">
+        <!-- Tasks will be dynamically inserted here -->
+      </div>
+    </section>
+ 
+    <!-- ================= FOOTER ================= -->
+    <footer class="app-footer">
+      <p>Designed &amp; Developed by Monica Murugan</p>
+      <div class="footer-icons">
+        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </div>
+    </footer>
+ 
+  </main>
+</div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
+ 
