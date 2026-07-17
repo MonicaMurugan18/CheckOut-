@@ -4,29 +4,29 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CheckOut | Task Management</title>
- 
+
 <!-- Google Font -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
- 
+
 <!-- Font Awesome -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
- 
+
 <!-- Stylesheet -->
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
- 
+
 <div class="app-container">
- 
+
   <!-- ================= SIDEBAR ================= -->
   <aside class="sidebar">
     <div class="logo">
       <i class="fa-solid fa-circle-check"></i>
       <span>CheckOut</span>
     </div>
- 
+
     <nav class="sidebar-nav">
       <ul>
         <li class="nav-item active" id="navDashboard">
@@ -48,10 +48,10 @@
       </ul>
     </nav>
   </aside>
- 
+
   <!-- ================= MAIN CONTENT ================= -->
   <main class="main-content">
- 
+
     <!-- ================= HEADER ================= -->
     <header class="app-header">
       <div class="header-text">
@@ -62,7 +62,7 @@
         <i class="fa-solid fa-moon"></i>
       </button>
     </header>
- 
+
     <!-- ================= DASHBOARD ================= -->
     <section class="dashboard-cards">
       <div class="card">
@@ -74,7 +74,7 @@
           <p id="totalTasks">0</p>
         </div>
       </div>
- 
+
       <div class="card">
         <div class="card-icon">
           <i class="fa-solid fa-circle-check"></i>
@@ -84,7 +84,7 @@
           <p id="completedTasks">0</p>
         </div>
       </div>
- 
+
       <div class="card">
         <div class="card-icon">
           <i class="fa-solid fa-hourglass-half"></i>
@@ -95,7 +95,7 @@
         </div>
       </div>
     </section>
- 
+
     <!-- ================= PROGRESS ================= -->
     <section class="progress-section">
       <div class="progress-header">
@@ -106,33 +106,33 @@
         <div id="progressBar" class="progress-bar"></div>
       </div>
     </section>
- 
+
     <!-- ================= ADD TASK ================= -->
     <section class="add-task-section">
       <h2>Add Task</h2>
       <div class="add-task-form">
         <input type="text" id="taskInput" placeholder="Enter task name">
- 
+
         <select id="category">
           <option value="Study">Study</option>
           <option value="Coding">Coding</option>
           <option value="Personal">Personal</option>
           <option value="Health">Health</option>
         </select>
- 
+
         <select id="priority">
           <option value="High">High</option>
           <option value="Medium">Medium</option>
           <option value="Low">Low</option>
         </select>
- 
+
         <button id="addTask">
           <i class="fa-solid fa-plus"></i>
           Add Task
         </button>
       </div>
     </section>
- 
+
     <!-- ================= SEARCH ================= -->
     <section class="search-section">
       <div class="search-box">
@@ -140,7 +140,7 @@
         <input type="text" id="searchTask" placeholder="Search Task">
       </div>
     </section>
- 
+
     <!-- ================= TASK LIST ================= -->
     <section class="task-list-section">
       <h2>Today's Tasks</h2>
@@ -148,7 +148,7 @@
         <!-- Tasks will be dynamically inserted here -->
       </div>
     </section>
- 
+
     <!-- ================= FOOTER ================= -->
     <footer class="app-footer">
       <p>Designed &amp; Developed by Monica Murugan</p>
@@ -161,11 +161,16 @@
         </a>
       </div>
     </footer>
- 
+
   </main>
 </div>
- 
+
+<!-- Main JavaScript -->
 <script src="script.js"></script>
+
+<!-- Tidio Chatbot -->
+<script src="//code.tidio.co/ytagcyqyglcxv1zh4junqqg7ic8ejlzt.js"></script>
+
 </body>
 </html>
  
